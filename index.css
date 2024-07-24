@@ -1,7 +1,16 @@
-p {
-    width: 100px;
-    height: 50px;
-    padding: 20px;
-    border: 1px solid;
+body {
+    font-family: Franklin Gothic Medium;
   }
   
+  header {
+    font-size: 45px;
+  }
+  
+  main {
+    font-size: 48px;
+    color: #d4263d;
+  }
+  
+  footer {
+    padding: 10px 0;
+  }
