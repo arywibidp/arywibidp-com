@@ -1,68 +1,7 @@
 @font-face {
-  font-family: myFirstFont;
-  src: url(Font/Althafia\ Display.otf);
+  font-family: "custom";
+  src: url("Font/Althafia Display.otf") format("opentype");
 }
-
-body{
-  background-color: rgb(250, 239, 227);
+body {
+  font-family: "custom";
 }
-  p {
-    font-family: myFirstFont;
-    width: 550px;
-    height: 50px;
-    padding: 1em;
-   
- }
-
-  .container {
-  display: grid;
-  grid-template-columns: 65% 8% 4% 10% 4% 10%;
-  padding: 10px;
-  margin: 10px;
-}
-h1{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 10px;
-  margin: 10px;
-  font-family: myFirstFont;
- }
-.item {
-  font-family: myFirstFont;
-  color: rgb(190, 167, 135);
-  min-height: 10px;
-  min-width: 5px;
-  padding: 10px;
-  margin: 10px;
-  font-size: 30px;
-  text-decoration: initial;
-}
-
-
-input[type='image'] {
-  width: 80px;
-}
-ul {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  padding: 10px;
-  margin: 5px;
-  font-family: myFirstFont;
-  font-size: 28px
-}
-  
- .isi {
-  position:absolute;
-  left: 28%;
-  padding: 10px;
-  margin: 5px;
- }
- .isi1 {
-  display: flex;
-  flex-direction: row;
-  left: 28%;
-  padding: 10px;
-  margin: 10px;
- }
